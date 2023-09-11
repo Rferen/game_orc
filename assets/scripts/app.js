@@ -68,7 +68,7 @@ async function suicide(){
 
 function easyWin(){
   alert('Magyarország 99% beszopta a dumádat ezért tovább uralkodsz mint királyuk! Automatikusan nyertél!');
-  const monsterDamage = dealMonsterDamage(1000);
+  const monsterDamage = dealMonsterDamage(100000);
   currentMonsterHealth -= monsterDamage;
   playVideo("./assets/videos/Brusszel_hibas.mp4");
   endRound();
