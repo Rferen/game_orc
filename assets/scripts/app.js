@@ -10,25 +10,25 @@ let isPlaying = false;
 
 adjustHealthBars(chosenMaxLife);
 
-// function uSure (){
-//   if (confirm ("Azt állította MiniszterElnök Úr hogy áremelések lesznek ezigaz?")) {
-//     // Igen
-//     alert('Fake news!');
-//     playVideo("./assets/videos/Fake_news.mp4")
+// function usure (){
+//   if (confirm ("azt állította miniszterelnök úr hogy áremelések lesznek ezigaz?")) {
+//     // igen
+//     alert('fake news!');
+//     playvideo("./assets/videos/fake_news.mp4")
 //   } else {
-//     //  Nem
-//     alert('Mondtál valamit vicceset és mindeki elfelejetette a kérdést!');
-//     playVideo("./assets/videos/Vicces_orban.mp4")
+//     //  nem
+//     alert('mondtál valamit vicceset és mindeki elfelejetette a kérdést!');
+//     playvideo("./assets/videos/vicces_orban.mp4")
 //   }
 // }
 
-// function randomExecute(func) {
-//   const randomValue = Math.random();
-//   if (randomValue <= 0.10) {
+// function randomexecute(func) {
+//   const randomvalue = math.random();
+//   if (randomvalue <= 0.10) {
 //     func();
 //   }
 // }
-// randomExecute(uSure);
+// randomexecute(usure);
 
 async function playVideo(newSource){
   videoSource.setAttribute('src', newSource);
