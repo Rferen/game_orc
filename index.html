@@ -10,33 +10,35 @@
     <script src="assets/scripts/app.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <aside class="participant-card">
-        <p class="participant-title">A nép!</p>
-        <img class="participant-image" src="./assets/images/jobbagyok.png" alt="jobbagyok" />
-        <progress id="monster-health" max="100" value="100">100%</progress>
-      </aside>
-      <div class="center-content">
-        <section id="controls">
-          <button id="attack-btn">NYUGDÍJASOK DÜHE</button>
-          <button id="strong-attack-btn">SZANKCIÓK</button>
-          <button id="heal-btn">Kolbász</button>
-          <button id="suicide-btn">Idén nincs 13 havi nyugdíj</button>
-          <button id="easy-win">Brüsszel a hibás!</button>
-          <button id="self-harm">Verd ki a ferinek</button>
-        </section>
-        <div id="video-container">
-          <video id="video">
-            <source id="video-source" src="./assets/videos/Nyugdijas_duhe.mp4" type="video/mp4">
-            A böngésződ nem támogatja a videó lejátszását.
-          </video>
+    <div class="top-content">
+      <div class="container">
+        <aside class="participant-card">
+          <p class="participant-title">A nép!</p>
+          <img class="participant-image" src="./assets/images/jobbagyok.png" alt="jobbagyok" />
+          <progress id="monster-health" max="100" value="100">100%</progress>
+        </aside>
+        <div class="center-content">
+          <section id="controls">
+            <button id="attack-btn">NYUGDÍJASOK DÜHE</button>
+            <button id="strong-attack-btn">SZANKCIÓK</button>
+            <button id="heal-btn">Kolbász</button>
+            <button id="suicide-btn">Idén nincs 13 havi nyugdíj</button>
+            <button id="easy-win">Brüsszel a hibás!</button>
+            <button id="self-harm">Verd ki a ferinek</button>
+          </section>
         </div>
+        <aside class="participant-card">
+          <p class="participant-title">Orcán Fintor</p>
+          <img class="participant-image" src="./assets/images/fidesz.png" alt="fidesz" />
+          <progress id="player-health" max="100" value="100">100%</progress>
+        </aside>
       </div>
-      <aside class="participant-card">
-        <p class="participant-title">Orcán Fintor</p>
-        <img class="participant-image" src="./assets/images/fidesz.png" alt="fidesz" />
-        <progress id="player-health" max="100" value="100">100%</progress>
-      </aside>
+    </div>
+    <div class="video-container" id="video-container">
+      <video id="video">
+        <source id="video-source" src="./assets/videos/Nyugdijas_duhe.mp4" type="video/mp4">
+        A böngésződ nem támogatja a videó lejátszását.
+      </video>
     </div>
   </body>
 </html>
